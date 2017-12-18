@@ -49,3 +49,40 @@ p [href$='.jpg']::after {
   font-size: 10px;
   color: #888;
 }
+
+.container{
+  display:inline-block;
+  width: 200px;
+  height: 300px;
+  padding: 30px 0 0 20px;
+}
+.container:hover{
+  background: brown;
+}
+a{
+background: #888;
+}
+
+.poz{
+  display: block;
+  height: 200px;
+  width: 300px;
+  min-width: 350px;
+  background: brown;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.container-iner{
+  background: yellow;
+  margin: 10px;
+  position: absolute;
+  top: 0;
+  margin-left: 90px;
+}
+.fl{
+  width: 300px;
+  height: 200px;
+  background: #888;
+  overflow:auto;
+}
