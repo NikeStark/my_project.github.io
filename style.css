@@ -97,3 +97,37 @@ overflow: auto;
   position: relative;
 
 }
+
+.abz {
+    text-align: left;
+    text-indent: 20px;
+    line-height: 25px;
+    margin: -2px;
+}
+
+.words {
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    text-indent: 20px;
+    white-space: normal;
+    margin: 0px 0px 0px 5px;
+}
+
+.word {
+    white-space: normal;
+}
+
+.text {
+    text-align: center;
+    color: blue;
+    text-transform: uppercase;
+    font-family: cursive;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    direction: rtl;
+}
+
+.unic {
+    direction: rtl;
+    unicode-bidi: embed;
+}
