@@ -59,8 +59,11 @@ p [href$='.jpg']::after {
 .container:hover{
   background: brown;
 }
-a{
-background: #888;
+a {
+  font-family:fantasy;
+  font-size: 20px;
+color: #28CCF8;
+text-decoration:none;
 }
 
 .poz{
@@ -99,13 +102,20 @@ overflow: auto;
 }
 
 .abz {
+  font-family: "PT Sans",Arial;
+  font-size: 14px;
     text-align: left;
     text-indent: 20px;
     line-height: 25px;
-    margin: -2px;
+}
+
+.image {
+  margin: -1px;
+    vertical-align: middle;
 }
 
 .words {
+  font-size: 80%;
     word-spacing: 3px;
     letter-spacing: 2px;
     text-indent: 20px;
